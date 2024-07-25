@@ -2,7 +2,7 @@ _base_ = ['../_base_/default_runtime.py', '../_base_/det_p5_tta.py']
 
 # ========================Frequently modified parameters======================
 # -----data related-----
-data_root = 'data/phones/'
+data_root = '/home/dalekseenko/CV_Restaurant/cv/src/cv_api/detection/mmlab/mmyolo_rest/data/phones/'
 # Path of train annotation file
 train_ann_file = 'annotations/train_phones.json'
 train_data_prefix = 'train/'  # Prefix of train image path

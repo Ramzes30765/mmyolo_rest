@@ -2,7 +2,7 @@ _base_ = ['../_base_/default_runtime.py', '../_base_/det_p5_tta.py']
 
 # ========================Frequently modified parameters======================
 # -----data related-----
-data_root = 'datasets/tes/'
+data_root = 'data/jewlery/'
 # Path of train annotation file
 train_ann_file = 'annotations/train.json'
 train_data_prefix = 'train/'  # Prefix of train image path
@@ -14,7 +14,7 @@ test_ann_file = 'annotations/test.json'
 test_data_prefix = 'test/'  # Prefix of val image path
 
 num_classes = 1  # Number of classes for classification
-class_name = ('jewlery', )
+class_name = ('jewerly', )
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette=[(20, 220, 60)])
 
