@@ -1,6 +1,6 @@
 _base_ = '../rtmdet_l_phones.py'
 
-teacher_ckpt = '/home/dalekseenko/mmlab_det/mmyolo/work_dirs/rtmdet_x_phones/epoch_300.pth'
+teacher_ckpt = '/home/dalekseenko/CV_Restaurant/cv/src/cv_api/detection/mmlab/mmyolo_rest/work_dirs/rtmdet_x_phones/epoch_300.pth'
 
 norm_cfg = dict(type='BN', affine=False, track_running_stats=False)
 
